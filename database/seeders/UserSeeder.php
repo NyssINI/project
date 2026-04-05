@@ -22,11 +22,12 @@ class UserSeeder extends Seeder
             'role' => 'admin',
         ]);
 
+        // Akun Petani
         User::create([
             'name' => 'user1',
             'email' => 'user@gmail.com',
             'password' => Hash::make('12345678'),
-            'role' => 'users',
+            'role' => 'petani',
         ]);
     }
 }
